@@ -115,11 +115,9 @@ after_install = "erpnext_uae.install.after_install"
 doc_events = {
 	"Purchase Invoice": {
 		"validate": [
-			"erpnext_uae.utils.validate_reverse_charge_transaction",
 			"erpnext_uae.utils.update_itc_availed_fields",
 			"erpnext_uae.utils.update_grand_total_for_rcm",
 			"erpnext_uae.utils.validate_returns",
-			"erpnext_uae.utils.update_taxable_values"
 		]
 	}
 }
