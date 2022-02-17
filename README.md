@@ -14,7 +14,7 @@ Using bench, [install ERPNext](https://github.com/frappe/bench#installation) as 
 Once ERPNext is installed, add ERPNext UAE app to your bench by running
 
 ```sh
-$ bench get-app https://github.com/DeeMysterio/erpnext_uae.git
+$ bench get-app https://github.com/frappe/erpnext_uae.git
 ```
 
 After that, you can install the app on required site (let's say demo.com )by running
@@ -25,4 +25,4 @@ $ bench --site demo.com install-app erpnext_uae
 
 ### License
 
-GNU GPL V3. See [license.txt](https://github.com/DeeMysterio/erpnext_uae/blob/develop/license.txt) for more information.
+GNU GPL V3. See [license.txt](https://github.com/frappe/erpnext_uae/blob/develop/license.txt) for more information.
