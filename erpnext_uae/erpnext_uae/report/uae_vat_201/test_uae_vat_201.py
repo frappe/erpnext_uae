@@ -5,7 +5,7 @@ import frappe
 import erpnext
 from erpnext.accounts.doctype.purchase_invoice.test_purchase_invoice import make_purchase_invoice
 from erpnext.accounts.doctype.sales_invoice.test_sales_invoice import create_sales_invoice
-from erpnext.regional.report.uae_vat_201.uae_vat_201 import (
+from erpnext_uae.erpnext_uae.report.uae_vat_201.uae_vat_201 import (
 	get_exempt_total,
 	get_standard_rated_expenses_tax,
 	get_standard_rated_expenses_total,
